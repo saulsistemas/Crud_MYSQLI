@@ -23,7 +23,7 @@ $query 	= mysqli_query($conexion, $select);
 			<td><?=$user['nombre'];?>
 			<td><?=$user['estado'];?>
 			<td>
-				<a href="metodos/controlador.php?id=<?=$user['id'];?>&accion=2">Actualizar</a> 
+				<a href="edit.php?id=<?=$user['id'];?>">Actualizar</a> 
 				<a href="metodos/controlador.php?id=<?=$user['id'];?>&accion=3">Eliminar</a> 
 			</td>
 		</tr>

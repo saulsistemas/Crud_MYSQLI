@@ -7,7 +7,7 @@
 </head>
 <body>
 	<form method="POST" action="metodos/controlador.php">
-		
+		<input type="hidden" name="accion" value="1">
 		<label>Codigo</label>
 		<input type="text" name="codigo"><br>
 		<label>Nombre</label>
